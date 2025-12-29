@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cheryl Akubueze | Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <nav>
+      <h2>Cheryl</h2>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#goals">Goals</a></li>
+      </ul>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <header>
+      <div>
+        <h1>Akubueze Nneoma Cheryl</h1>
+        <p>Information Technology Student • Bowen University</p>
+        <button onclick="scrollToSection('about')">Explore My Website</button>
+      </div>
+    </header>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a 3rd year Information Technology student at Bowen University with
+        a strong interest in business, technology, and personal growth. I am
+        passionate about building useful skills that can create long-term value
+        academically and financially.
+      </p>
+
+      <div class="about-grid">
+        <div class="card">
+          <h3>Who I Am</h3>
+          <p>
+            A focused and goal-driven student who enjoys learning practical
+            skills and applying knowledge beyond the classroom.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>What I Value</h3>
+          <p>
+            Consistency, discipline, growth, and independence. I believe in
+            learning things deeply and applying them strategically.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills">
+      <h2>Skills & Interests</h2>
+      <div class="skills">
+        <div class="skill">Microsoft Excel</div>
+        <div class="skill">Business Strategy</div>
+        <div class="skill">Personal Development</div>
+        <div class="skill">Agribusiness Interest</div>
+      </div>
+    </section>
+
+    <!-- ===== GOALS ===== -->
+    <section id="goals">
+      <h2>Future Goals</h2>
+      <p>
+        My long-term goal is to build a successful career that combines
+        technology and business, while also exploring opportunities in
+        agriculture and entrepreneurship.
+      </p>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <p>© 2025 Akubueze Nneoma Cheryl</p>
+    </footer>
+
+    <script>
+      function scrollToSection(id) {
+        document.getElementById(id).scrollIntoView({
+          behavior: "smooth",
+        });
+      }
+    </script>
+  </body>
+</html>
